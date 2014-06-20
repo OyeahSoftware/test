@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="idea-firstweb:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/idea_firstweb_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="idea-firstweb/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="idea-firstweb:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="jstl" />
+      </element>
+    </root>
+  </artifact>
+</component>
